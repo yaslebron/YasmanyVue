@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    margin: 1.5rem;
+  }
+  .boards-colect{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-top: 1rem;
+  }
+      
+  input{
+      box-sizing:border-box;
+      background-color: #546e7a;
+      border: 2px solid #546e7a;
+      border-radius: 3px;
+      font-size: 1.1rem;
+      outline: 0;
+      padding: 0.5rem;
+      transition: all 600ms ease;
+  
+      &:focus,
+      &:active{
+          background-color: white;
+          color: #546e7a;
+      }
+      &::placeholder{
+          color: white;
+      }
+  }
