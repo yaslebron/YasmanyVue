@@ -1,7 +1,12 @@
 <template>
     <section>
-        <h3> <span>Mis Paneles</span> ▶ {{ name }} </h3>
-    <div>...</div>
+        <h3> <span>Mis Paneles</span> ▶ {{ name}} </h3>
+   
+        <input 
+            type="text"
+            placeholder="Agrega una lista"
+            v-model= 'listname'
+            @keyup.enter="add()" >
     </section>
 </template>
 

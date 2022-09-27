@@ -16,7 +16,8 @@ import BoardCard from '../components/BoardCard.vue'
                 v-for ="(board, index) in boards"
                 :key="index"
                 :name="board.name"  
-                :id="board.id"/>
+                :id="board.id">
+            </board-card>
             
         </div>
     </div>
@@ -40,7 +41,7 @@ export default {
     },
     methods:{
         add: function (){
-            this.boards.push({name: this.boardname})
+            this.boards.push({name: this.boardname, id: this.boards.length+1})
         }
     }
 }

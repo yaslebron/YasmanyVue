@@ -3,11 +3,11 @@
 </script>
 
 <template>
-    <router-link
+    <RouterLink
         class="board-card"
         :to="{name: 'board', params:{name, id}}">
          <span class="board-card-title">{{ name }}</span>
-    </router-link>
+    </RouterLink>
 </template>
 
 <script >
