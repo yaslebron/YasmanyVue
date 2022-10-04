@@ -80,7 +80,7 @@ section{
 input {
     background-color: #607d8b;
     border: 0;
-    border-radius: 3px;
+    border-radius: 5px;
     box-shadow: 
       0 0 0 0.5px rgba(49,49,93,.03),
       0 2px 5px 0 rgba(49,49,93,.1),
