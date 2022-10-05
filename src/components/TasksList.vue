@@ -15,7 +15,7 @@
 </template>
 
 <script>
-    //import '../views/scss/TasksList.scss'
+//import '../views/scss/TaskList.scss'
 
 export default{
     name:'task-list',
