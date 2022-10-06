@@ -59,7 +59,7 @@ li{
 
 input{
 box-sizing: border-box;
-background-color: #eceff1;
+background-color: #5a6974;
 border: none;
 border-radius: 3px;
 font-size: 1rem;
@@ -77,7 +77,7 @@ width: 100%;
     padding: 1rem;
 }
 &::placeholder{
-    color: #90a4ae;
+    color: white;
 }
 }
 </style>

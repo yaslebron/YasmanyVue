@@ -17,7 +17,7 @@ footer{
     bottom: 0;
     left: 0;
     padding: 1rem;
-    position: absolute;
+    position: relative;
     width: 100%;
     text-align: center;
 

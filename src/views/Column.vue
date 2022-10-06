@@ -3,10 +3,10 @@
     <header>
         <h3>{{ name }}</h3>
     </header>
-    <task-list
+    <TasksList
     :listid="ListId"
     :tasks="TasksList">
-    </task-list>
+    </TasksList>
    </section>
 </template>
 
