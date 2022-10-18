@@ -4,11 +4,12 @@
         v-for="(task, index) in tasks"
         :key="index"
         :class="{completed: task.completed}">
+        {{task.title}}
         </li>
 
         <input 
         type="text"
-        placeholder="Anadir nueva tarea"
+        placeholder="Añadir nueva tarea"
         v-model="title"
         @keyup.enter="add()">
     </ul>
